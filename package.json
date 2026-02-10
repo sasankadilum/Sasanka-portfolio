@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.21.0"
   },
-  "homepage": "https://sasankadilum.github.io/Sasanka-portfolio",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
