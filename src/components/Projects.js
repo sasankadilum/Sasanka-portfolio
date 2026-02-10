@@ -18,11 +18,11 @@ const Projects = () => {
       tech: [
         { name: 'React', icon: <FaReact />, color: '#61DAFB' },
         { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
-        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
+        { name: 'PostgreSQL', icon: <FaDatabase />, color: '#336791' },
         { name: 'Express', icon: <SiExpress />, color: '#000000' }
       ],
       gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-      github: '#',
+      github: 'https://github.com/sasankadilum/Project-2-2',
       demo: '#'
     },
     {
@@ -32,11 +32,11 @@ const Projects = () => {
       tech: [
         { name: 'React', icon: <FaReact />, color: '#61DAFB' },
         { name: 'Express', icon: <SiExpress />, color: '#000000' },
-        { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
+        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
         { name: 'Tailwind', icon: <SiTailwindcss />, color: '#06B6D4' }
       ],
       gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-      github: '#',
+      github: 'https://github.com/sasankadilum/HomeStockProject',
       demo: '#'
     },
     {
@@ -45,12 +45,13 @@ const Projects = () => {
       image: '🍳',
       tech: [
         { name: 'React', icon: <FaReact />, color: '#61DAFB' },
-        { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
-        { name: 'PostgreSQL', icon: <FaDatabase />, color: '#336791' },
+        { name: 'Spring Boot', icon: <SiSpringboot />, color: '#6DB33F' },
+        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
+        
         { name: 'Tailwind', icon: <SiTailwindcss />, color: '#06B6D4' }
       ],
       gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-      github: '#',
+      github: 'https://github.com/sasankadilum/Dish-Craft',
       demo: '#'
     },
     {
@@ -65,32 +66,33 @@ const Projects = () => {
       gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
       github: '#',
       demo: '#'
-    },
-    {
-      title: 'AI Task Manager',
-      description: 'Smart task management application powered by AI for intelligent task prioritization, deadline predictions, productivity insights, and automated workflow suggestions.',
-      image: '🤖',
-      tech: [
-        { name: 'React', icon: <FaReact />, color: '#61DAFB' },
-        { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
-        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' }
-      ],
-      gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Real-Time Chat App',
-      description: 'Modern real-time messaging application with WebSocket integration, group chats, file sharing, voice messages, message encryption, and user presence indicators.',
-      image: '💬',
-      tech: [
-        { name: 'React', icon: <FaReact />, color: '#61DAFB' },
-        { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
-        { name: 'Socket.io', icon: '⚡', color: '#010101' }
-      ],
-      gradient: 'linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)',
-      github: '#',
-      demo: '#'
+    // },
+    // {
+    //   title: 'AI Task Manager',
+    //   description: 'Smart task management application powered by AI for intelligent task prioritization, deadline predictions, productivity insights, and automated workflow suggestions.',
+    //   image: '🤖',
+    //   tech: [
+    //     { name: 'React', icon: <FaReact />, color: '#61DAFB' },
+    //     { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
+    //     { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' }
+    //   ],
+    //   gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+    //   github: '#',
+    //   demo: '#'
+    // },
+    // {
+    //   title: 'Real-Time Chat App',
+    //   description: 'Modern real-time messaging application with WebSocket integration, group chats, file sharing, voice messages, message encryption, and user presence indicators.',
+    //   image: '💬',
+    //   tech: [
+    //     { name: 'React', icon: <FaReact />, color: '#61DAFB' },
+    //     { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
+    //     { name: 'Socket.io', icon: '⚡', color: '#010101' }
+    //   ],
+    //   gradient: 'linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)',
+    //   github: '#',
+    //   demo: '#'
+    // }
     }
   ];
 
